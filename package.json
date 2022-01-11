@@ -1,0 +1,31 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.3",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "http-error": "^0.0.6",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "pug": "^3.0.2"
+  },
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "Membuat blog api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-prodc": "node server",
+    "start-dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mancode77/blog-api.git"
+  },
+  "author": "Aji Maulana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mancode77/blog-api/issues"
+  },
+  "homepage": "https://github.com/mancode77/blog-api#readme"
+}
