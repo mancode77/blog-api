@@ -2,10 +2,10 @@
 
 const os = require('os');
 const http = require('http');
-const { app } = require('./app');
-const { Connection } = require('./configs/Connection');
-const { Debug } = require('./debug/Debug');
-const { Route } = require('./core/Route');
+const { app } = require('./src/app');
+const { Connection } = require('./src/configs/Connection');
+const { Debug } = require('./src/debug/Debug');
+const { Route } = require('./src/core/Route');
 const { dbConnection } = require('../indovel-api/database');
 
 class App extends Route {
