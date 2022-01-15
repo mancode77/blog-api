@@ -6,7 +6,7 @@ const { app } = require('./src/app');
 const { Connection } = require('./src/configs/Connection');
 const { Debug } = require('./src/debug/Debug');
 const { Route } = require('./src/core/Route');
-const { dbConnection } = require('../indovel-api/database');
+const { dbConnection } = require('../indovel-api/src/database');
 
 class App extends Route {
   #connection;
@@ -17,14 +17,14 @@ class App extends Route {
 
     const dbConnectoin = this.#connection.MysqlConnection();
 
-    dbConnection.connect(function(err) {
+    dbConnection.connect(function (err) {
       if (err) {
-          console.error('error connecting: ' + err.stack);
-          return;
+        console.error('error connecting: ' + err.stack);
+        return;
       }
 
       console.info('Database Connection Successfuly');
-     
+
       // const port = Debug.normalizePort(process.env.PORT || '3000');
       // app.set('port', port);
 
@@ -38,8 +38,8 @@ class App extends Route {
   static onListening() {
     const addr = server.address();
     const bind = typeof addr === 'string'
-          ? 'pipe ' + addr
-          : 'port ' + addr.port;
+      ? 'pipe ' + addr
+      : 'port ' + addr.port;
     debug('Listening on ' + bind);
   }
 
