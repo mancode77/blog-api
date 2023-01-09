@@ -1,0 +1,31 @@
+GET http://localhost:3000/api/v1/articles
+
+###
+POST http://localhost:3000/api/v1/articles
+Content-Type: application/json
+Accept: application/json
+
+{
+  "category": "aasdas",
+  "title": "Javascript",
+  "author": "Joan",
+  "content": "JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT."
+}
+
+###
+
+PUT http://localhost:3000/api/v1/articles/15
+Content-Type: application/json
+Accept: application/json
+
+{
+  "category": "Komputer",
+  "title": "Javascript",
+  "author": "Yes bang",
+  "content": "JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT."
+}
+###
+
+DELETE http://localhost:3000/api/v1/articles/15
+Content-Type: application/json
+Accept: application/json

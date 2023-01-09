@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/v1/categories
+###
+
+POST http://localhost:3000/api/v1/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "World"
+}
+###
+
+PUT http://localhost:3000/api/v1/categories/25
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "ASDFFG"
+}
+###
+
+DELETE http://localhost:3000/api/v1/categories/23
+Content-Type: application/json
+Accept: application/json
