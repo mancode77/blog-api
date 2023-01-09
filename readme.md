@@ -6,73 +6,74 @@
 
 **Endpoint Articles**
 
-`GET https://localhost:3000/api/v1/articles`
+```http GET https://localhost:3000/api/v1/articles
 
 ###
 
-```http POST https://localhost:3000/api/v1/articles
+POST https://localhost:3000/api/v1/articles
 Content-Type: application/json
-Accept: application/json```
+Accept: application/json
 
-```json{
+{
   "category": "Komputer",
   "title": "Javascript",
   "author": "Joan",
   "content": "JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT."
-}```
+}
 
 ###
 
-`PUT https://localhost:3000/api/v1/articles/{id}`
-`Content-Type: application/json`
-`Accept: application/json`
+PUT https://localhost:3000/api/v1/articles/{id}
+Content-Type: application/json
+Accept: application/json
 
-```json{
+{
   "category": "Komputer",
   "title": "Javascript",
   "author": "Yes bang",
   "content": "JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT."
-}```
+}
 
 ###
 
-`DELETE https://localhost:3000/api/v1/articles/{id}`
-`Content-Type: application/json`
-`Accept: application/json`
+DELETE https://localhost:3000/api/v1/articles/{id}
+Content-Type: application/json
+Accept: application/json
 
 
-**Endpoint Articles**
+**Endpoint Categories**
 
-`GET https://localhost:3000/api/v1/categories`
+GET https://localhost:3000/api/v1/categories
 
 ###
 
-`POST https://localhost:3000/api/v1/categories`
-`Content-Type: application/json`
-`Accept: application/json`
+POST https://localhost:3000/api/v1/categories
+Content-Type: application/json
+Accept: application/json
 
-```json{
+{
   "category": "Komputer",
   "title": "Javascript",
   "author": "Joan",
   "content": "JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT."
-}```
+}
 
 ###
 
-`PUT https://localhost:3000/api/v1/categories/{id}`
-`Content-Type: application/json`
-`Accept: application/json`
+PUT https://localhost:3000/api/v1/categories/{id}
+Content-Type: application/json
+Accept: application/json
 
-```json{
+{
   "category": "Komputer",
   "title": "Javascript",
   "author": "Yes bang",
   "content": "JavaScript adalah bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer, Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag SCRIPT."
-}```
+}
 
 ###
 
-`DELETE https://localhost:3000/api/v1/categories/{id}`
-`Content-Type: application/json`
-`Accept: application/json`
+DELETE https://localhost:3000/api/v1/categories/{id}
+Content-Type: application/json
+Accept: application/json
+```
