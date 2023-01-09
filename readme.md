@@ -6,7 +6,8 @@
 
 **Endpoint Articles**
 
-```http GET https://localhost:3000/api/v1/articles
+```http
+GET https://localhost:3000/api/v1/articles
 
 ###
 
@@ -43,7 +44,8 @@ Accept: application/json
 
 **Endpoint Categories**
 
-```http GET https://localhost:3000/api/v1/categories
+```http
+GET https://localhost:3000/api/v1/categories
 
 ###
 
