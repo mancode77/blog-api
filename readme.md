@@ -10,9 +10,9 @@
 
 ###
 
-`POST https://localhost:3000/api/v1/articles`
-`Content-Type: application/json`
-`Accept: application/json`
+```http POST https://localhost:3000/api/v1/articles
+Content-Type: application/json
+Accept: application/json```
 
 ```json{
   "category": "Komputer",
