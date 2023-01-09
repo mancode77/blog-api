@@ -39,11 +39,11 @@ Accept: application/json
 DELETE https://localhost:3000/api/v1/articles/{id}
 Content-Type: application/json
 Accept: application/json
-
+```
 
 **Endpoint Categories**
 
-GET https://localhost:3000/api/v1/categories
+```http GET https://localhost:3000/api/v1/categories
 
 ###
 
