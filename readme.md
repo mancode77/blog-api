@@ -10,9 +10,9 @@
 
 ###
 
-`POST https://localhost:3000/api/v1/articles
-Content-Type: application/json
-Accept: application/json`
+`POST https://localhost:3000/api/v1/articles`
+`Content-Type: application/json`
+`Accept: application/json`
 
 ```json{
   "category": "Komputer",
@@ -23,9 +23,9 @@ Accept: application/json`
 
 ###
 
-`PUT https://localhost:3000/api/v1/articles/{id}
-Content-Type: application/json
-Accept: application/json`
+`PUT https://localhost:3000/api/v1/articles/{id}`
+`Content-Type: application/json`
+`Accept: application/json`
 
 ```json{
   "category": "Komputer",
@@ -36,9 +36,9 @@ Accept: application/json`
 
 ###
 
-`DELETE https://localhost:3000/api/v1/articles/{id}
-Content-Type: application/json
-Accept: application/json`
+`DELETE https://localhost:3000/api/v1/articles/{id}`
+`Content-Type: application/json`
+`Accept: application/json`
 
 
 **Endpoint Articles**
@@ -47,9 +47,9 @@ Accept: application/json`
 
 ###
 
-`POST https://localhost:3000/api/v1/categories
-Content-Type: application/json
-Accept: application/json`
+`POST https://localhost:3000/api/v1/categories`
+`Content-Type: application/json`
+`Accept: application/json`
 
 ```json{
   "category": "Komputer",
@@ -60,9 +60,9 @@ Accept: application/json`
 
 ###
 
-`PUT https://localhost:3000/api/v1/categories/{id}
-Content-Type: application/json
-Accept: application/json`
+`PUT https://localhost:3000/api/v1/categories/{id}`
+`Content-Type: application/json`
+`Accept: application/json`
 
 ```json{
   "category": "Komputer",
@@ -73,6 +73,6 @@ Accept: application/json`
 
 ###
 
-`DELETE https://localhost:3000/api/v1/categories/{id}
-Content-Type: application/json
-Accept: application/json`
+`DELETE https://localhost:3000/api/v1/categories/{id}`
+`Content-Type: application/json`
+`Accept: application/json`
