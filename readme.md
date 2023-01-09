@@ -14,7 +14,7 @@
 Content-Type: application/json
 Accept: application/json`
 
-```{
+```json{
   "category": "Komputer",
   "title": "Javascript",
   "author": "Joan",
