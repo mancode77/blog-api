@@ -1,4 +1,4 @@
-## TECH: 
+## TECH 
 1. Express JS
 2. MySQL
 
